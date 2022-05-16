@@ -1,8 +1,15 @@
+body{
+    background-image: url("https://lilchef.com.sg/wp-content/uploads/2021/12/cropped-Lil-Chef-Logo_Mascot-round-vertical-e1639628290470.png");
+    background-repeat: repeat-y;
+    background-position:bottom right;
+    background-attachment: scroll;
+}
+
 *{
     font-family: Arial, "Times New Roman", Verdana;
-    text-align: center;
-   
     box-sizing: border-box;
+    margin: 5px;
+    text-decoration: none;
 }
 
 h1{
@@ -11,31 +18,72 @@ h1{
     padding: 40px;
     font-size: 50px;
     text-align: center;
-    margin: 10px;
+    width: 1800px;
+    margin: 50px auto;
 }
 
 
-li{
-    display: inline-block;
-    border: 1px;
-}
-
-img{
+.foodphoto{
     height: 350px;
     width: 400px;
     border: 2px solid black;  
+    border-radius: 200px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
-a{
-    border: 2px solid black;
-    background-color: seashell;
-    display: block;
-    padding: 20px;
+.foodlink{
+    background-color: rgb(243, 232, 201);
+    padding: 10px;
     font-size: 20px;
-    margin-top: 50px;  
+    margin: 20px;
+    margin-left: 180px;
+    border: 2px solid black;
+    width: 220px;
+    text-align: center;
+    display:block;
 }
 
-a,img{
-    margin-left: 70px;
-    margin-right: 70px;
+.content{
+    margin-left: 90px;
+}
+
+.title{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.description, .keyinfo, .ingredients, .steps{
+    border: 2px solid black;
+    padding: 20px;
+    width: 1500px;
+    margin-top: 10px;
+}
+
+.contentphoto{
+    height: 350px;
+    width: 400px;
+    border: 2px solid black;  
+    border-radius: 200px;
+    margin: auto auto 50px 90px;
+}
+.maintitle{
+    display:block;
+    margin: -40px 0px 40px 230px;
+;
+}
+
+.flexbox-container{
+    display: flex;
+}
+
+.flexbox{
+    border: 2px solid black;
+    width: 1500px;
+    background-color: bisque;
+}
+
+.flexbox .item1{
+    height: 30000px;
+    width: 300px;
 }
